@@ -1,0 +1,365 @@
+<html>
+    <head>
+        <title>About us | IIAO IIAO</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com//font-awesome/4.7.0/css/fontawesome.min.css">
+        <meta name="viewport" content="width = device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section id="banner">
+            <img src="images/logo-removebg-preview.png" class="logo">
+            <div class="banner-text">
+                <h1>ABOUT US</h1>
+<br>
+              <div class="caption-aboutus">
+                <p align="justify">It is a Spanish frozen yogurt franchise brand founded in Denia in the province of Alicante, Spain.Hence, as of March 2016, llaollao is present in more than 180 establishments. Currently, llaollao is present in <b>25 countries</b> on four continents including Europe and Latin America, Morocco, Australia, China, Russia, Cambodia, Malaysia, Singapore, Philippines, South Korea, Japan, United States and Brunei Darussalam.
+                </p>
+              </div>
+
+                <div class="banner-btn">
+                    <a href="menu.html"><span></span>Our Menu</a>
+            </div>
+        </section>
+    
+            <div id="sideNav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="findus.html">FIND US</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div id="menuBtn">
+                <img src="images/bar.png" id="menu">
+            </div>
+
+        <script>
+            var menuBtn=document.getElementById("menuBtn")
+            var sideNav=document.getElementById("sideNav")
+            var menu=document.getElementById("menu")
+
+            sideNav.style.right="-250px";
+
+            menuBtn.onclick = function()
+            {
+                if(sideNav.style.right=="-250px")
+                {
+                    sideNav.style.right="0";
+                    menu.src="images/close1.png";
+                }
+
+                else
+                {
+                    sideNav.style.right = "-250px";
+                    menu.src="images/bar.png";
+                }
+            }
+        </script>
+    </body>
+
+    <style>
+        div.header-history
+        {
+            width: 100%;
+            height: 50px;
+            font-family: 'Courier New';
+            font-size: 45px;
+            background-color: none;
+        }
+
+        div.historyiiaoiiao
+        {
+            width: 100%;
+            height: 600px;
+            font-family: 'Courier New';
+            font-size: 15px;
+            background-color: rgb(235, 231, 231);
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        div.gap
+        {
+            float: left;
+            background-color: none;
+            width: 100%;
+            height: 50px;
+        }
+
+        div.tablevisionmission
+        {
+          background-color: rgb(235, 231, 231);
+        }
+
+        div.caption-aboutus
+        {
+          padding-left: 20%;
+          padding-right: 20%;
+        }
+    </style>
+
+<br>
+  
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+            * {box-sizing: border-box}
+            body {font-family: Verdana, sans-serif; margin:0}
+            .mySlides {display: none}
+            img {vertical-align: middle;}
+            
+            /* Slideshow container */
+            .slideshow-container 
+            {
+              max-width: 1000px;
+              position: relative;
+              margin: auto;
+            }
+            
+            /* Next & previous buttons */
+            .prev, .next 
+            {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              padding: 50px;
+              margin-top: 22px;
+              color: black;
+              font-weight: bold;
+              font-size: 30px;
+              transition: 0.6s ease;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+            }
+            
+            /* Position the "next button" to the right */
+            .next 
+            {
+              right: 0;
+              border-radius: 3px 0 0 3px;
+            }
+            
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover 
+            {
+              background-color: rgba(190, 188, 188, 0.8);
+            }
+            
+            /* Caption text */
+            .text 
+            {
+              color: #f2f2f2;
+              font-size: 15px;
+              padding: 8px 12px;
+              position: absolute;
+              bottom: 8px;
+              width: 100%;
+              text-align: center;
+            }
+            
+            /* Number text (1/3 etc) */
+            .numbertext 
+            {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+            }
+            
+            /* The dots/bullets/indicators */
+            .dot 
+            {
+              cursor: pointer;
+              height: 15px;
+              width: 15px;
+              margin: 2px;
+              background-color: #bbb;
+              border-radius: 100%;
+              display: inline-block;
+              transition: background-color 0.6s ease;
+            }
+            
+            .active, .dot:hover 
+            {
+              background-color: #717171;
+            }
+            
+            /* Fading animation */
+            .fade 
+            {
+              animation-name: fade;
+              animation-duration: 1.5s;
+            }
+            
+            @keyframes fade 
+            {
+              from {opacity: .4} 
+              to {opacity: 1}
+            }
+            
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) 
+            {
+              .prev, .next,.text {font-size: 11px}
+            }
+            </style>
+            </head>
+            <body>
+            
+            <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <center><img src="images/kiosk1.jpg" style="width:70%"></center>
+              <div class="text">"IIAO IIAO Franchise"</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <center><img src="images/kiosk2.jpg" style="width:70%"></center>
+              <div class="text">"IIAO IIAO Franchise"</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <center><img src="images/kiosk3.jpg" style="width:70%"></center>
+              <div class="text">"IIAO IIAO is now certified by JAKIM"</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) 
+            {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) 
+            {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) 
+            {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) 
+              {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) 
+              {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+  </center>
+   
+    <div class="gap"></div>
+    <div class="gap"></div>
+
+    <div class="header-history">
+      <center><p>🍦  HISTORY OF IIAO IIAO  🍦</p></center>
+    </div>
+
+    <div class="gap"></div>
+    <div class="gap"></div>
+<br>
+
+ <center>
+    <div class="historyiiaoiiao">
+            <p align="justify">
+                In 16 countries around the world opened more than 150 shops.The first llaollao shop opened in 2009 and became a pioneer in selling frozen yogurt in Spain.The first store opened in the economic crisis. In June 2009 is still in the economic crisis, llaollao founder Pedro Espinosa left his job at British Petroleum in his 24 years old in Spain's Denia (Alicante) opened its first store, a originally designed to only 3 to 5 individuals composed of small family business tradition in the world of gastronomy. Denia's first store opened successfully for Espinosa, which is planning a commercial expansion to Madrid, Valencia and Spain.
+            </p>
+            <br>
+            <p align="justify">
+                By July 2015, llaollao had generated a total of 1,000 jobs during the five years that have passed since it launched its franchise model to the market. llaollao opened its biggest outlet in the world in August 2015 at Suntec City, Singapore. Beginning 2016, Llaollao will commence a 70 outlet expansion in Japan.
+            </p>
+            <br>
+            <p align="justify">
+                At the same time due to the inspiration of tourists, Espinosa also has the idea to open franchise and began to think about the basis of this model, he realized that the fastest speed must establish a good team to grasp the best time. In addition, llaollao set out the conditions of the franchise business is also very reasonable.
+            </p>
+            <br>
+            <p align="justify">
+                2010 to 2011 is the difficult period of llaollao, with the increase in the number of stores, for their investment to bring a heavy financial burden. But in the end and the franchisee's cooperation under the capital investment llaollao through the difficulties. Founder of the company attaches great importance to the brand image, its very healthy image is the key to the success of Llaollao, another key is the brand to provide the product healthy, natural and affordable. To the main color of green decoration shop successfully built its green image.
+            </p>
+            <br>
+            <p align="justify">
+                In any country, franchisees operate in exactly the same way as they are sold in Spain. They can be coordinated according to the characteristics and preferences of each country, llaollao always retain their original flavor. Currently, the company that incorporates healthy values (a medium-sized tub contains 46% of the Calcium Recommended Daily Allowance) and a fresh image, is a leader among its competitors. Singapore's Prime Minister, Lee Hsien Loong following his official visit to Madrid where he met Spain's King Felipe VI once referenced Llaollao and Zara as popular brands amongst around 200 Spanish companies present in Singapore.
+            </p>
+    </div>
+</center>   
+    
+ 
+   
+  <center>
+<div class="tablevisionmission">
+    <table>
+    <tr>
+        <th>VISION</th>
+        <td><center>🔅 To be present worldwide, consolidating a stable, successful and lasting business model.</center></td>
+    </tr>
+    <tr>
+        <th>MISSION</th>
+        <td><center><justify>🔅 To make our yogurt a product that is widely accepted for its enormous health benefits,<br> as well as its extraordinary taste, with our customers being the inventors of their own creations, <br> thanks to our infinite combination of toppings.</justify></center></td> 
+    </tr>
+    <tr>
+        <th>VALUES</th>
+        <td><center>🔅 Our principal values are integrity, <br> sustainability and customer care, by only providing our customers with prime-quality products.</center></td>
+    </tr>
+    </table>
+</div>
+  </center>
+
+  <div class="gap"></div>
+
+    <!--footer-->
+
+    <section id="footer">
+      <div class="title-text">
+          <p>CONTACT</p>
+          <H1>VISIT US</H1>
+      </div>
+      <div class="footer-row">
+      <div class="footer-left">
+          <h1>Visit our Social Media</h1>
+          <p>Instagram: @llaollao_my</p>
+          <p>Facebook: llaollao Malaysia</p>
+      </div>
+      <div class="footer-right">
+          <h1>Opening Hours</h1>
+          <p>Monday-Sunday</p>
+          <p>10 a.m-10 p.m.</p>
+      </div>
+    </section>
+
+    </body>
+</html>

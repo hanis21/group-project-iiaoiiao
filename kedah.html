@@ -1,0 +1,94 @@
+<html>
+    <img src="images/logo-removebg-preview.png" class="logo">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com//font-awesome/4.7.0/css/fontawesome.min.css">
+        <meta name="viewport" content="width = device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+
+    <head>
+        <title>Location: Kedah</title>
+    </head>
+
+     <!--Button-->
+     <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="findus.html">BACK</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menuBtn">
+        <img src="images/icon-location.png" id="menu">
+    </div>
+
+    <script>
+        var menuBtn=document.getElementById("menuBtn")
+        var sideNav=document.getElementById("sideNav")
+        var menu=document.getElementById("menu")
+
+        sideNav.style.right="-250px";
+
+        menuBtn.onclick = function()
+        {
+            if(sideNav.style.right=="-250px")
+            {
+                sideNav.style.right="0";
+                menu.src = "images/close1.png";
+            }
+
+            else
+            {
+                sideNav.style.right = "-250px";
+                menu.src = "images/icon-location.png";
+            }
+        }
+    </script>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="background-color">
+    <body>
+        <div class="gap"></div>
+
+        <div class="header-negeri">
+            <center><h1>- KEDAH BRANCHES -</h1></center>
+        </div>
+<br>
+<br>
+<br>
+        <div class="map">
+            <center>
+                <div class="map-header">
+                    <b><p>1. Aman Central</p></b>
+                </div>    
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.042599892194!2d100.3664572!3d6.124969699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b44ba1ecf0933%3A0x964bf7a31a95a937!2sAman%20Central%2C%201%2C%20Darul%20Aman%20Hwy%2C%20Kampung%20Lubok%20Peringgi%2C%2005100%20Alor%20Setar%2C%20Kedah!5e0!3m2!1sen!2smy!4v1674901397728!5m2!1sen!2smy" width="80%" height="450" style="border: 1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </center>
+        </div>
+<br>
+<br>
+<br>
+        <div class="map">
+            <center>
+                <div class="map-header">
+                    <b><p>2. Amanjaya Mall, Sg Petani</p></b>
+                </div>    
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127048.56511781512!2d100.43928579995594!3d5.6743913878823165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b299fabc9980d%3A0xe1434c98b573b4d7!2sAmanjaya%20Mall%2C%20Sungai%20Petani!5e0!3m2!1sen!2smy!4v1674901471407!5m2!1sen!2smy" width="80%" height="450" style="border: 1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </center>
+        </div>
+<br>
+<br>
+<br>
+        <div class="endofpage">
+            <center><i><p>- END OF THIS PAGE -</p></i></center>
+        </div>
+    </body>
+    </div>
+</html>
